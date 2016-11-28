@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Lato|Open+Sans');
+
+
+/* 
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Droid Sans', sans-serif;
+*/
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body {
+	
+	font-family: 'Open Sans','Lato', 'Droid Sans';
+	font-size: 16px;
+	background-color: white;
+	color: lightgray;
+	
+}
+
+.maintitle {
+	width: 100%;
+	background-color: #b1b5b9;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	color: white;
+}
+
+.gallerywrapper {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 980px;
+	margin: auto;
+	justify-content: space-between;
+	
+}
+
+.gallerywrapper img {
+	padding-top: 25px;
+}
+
+.searchbox {
+	
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+input, button, textarea { outline: none; }
+
+input[type=text] {
+    width: 460px;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	background-color: #eff0f1;
+	border-radius: 5px;
+	color: gray;
+}
+
+
+	
+	
